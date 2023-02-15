@@ -1,4 +1,4 @@
-// import { Component } from 'react';
+
 import styles from '../Filter/Filter.module.css';
 
 
@@ -16,7 +16,6 @@ export const Filter = ({ value, onChange }) => {
           id= "search"
           onChange={onChange}
         />
-         
       </>      
     );
   }
